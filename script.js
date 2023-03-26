@@ -20,27 +20,27 @@ for (i = 0; i < parseInt(roundCount); i++) {
 		alert("Tie!");
 		tieCount++
 	}
-	else if (playerChoice = "rock" && compChoice === "scissors") {
+	else if (playerChoice === "rock" && compChoice === "scissors") {
 		alert("The computer chose scissors. You win!");
 		winCount++
 	}
-	else if (playerChoice = "rock" && compChoice === "paper") {
+	else if (playerChoice === "rock" && compChoice === "paper") {
 		alert("The computer chose paper. You lose!");
 		lossCount++
 	}
-	else if (playerChoice = "paper" && compChoice === "rock") {
+	else if (playerChoice === "paper" && compChoice === "rock") {
 		alert("The computer chose rock. You win!");
 		winCount++
 	}
-	else if (playerChoice = "paper" && compChoice === "scissors") {
+	else if (playerChoice === "paper" && compChoice === "scissors") {
 		alert("The computer chose scissors. You lose!");
 		lossCount++
 	}
-	else if (playerChoice = "scissors" && compChoice === "paper") {
+	else if (playerChoice === "scissors" && compChoice === "paper") {
 		alert("The computer chose paper. You win!");
 		winCount++
 	}
-	else if (playerChoice = "scissors" && compChoice === "rock") {
+	else if (playerChoice === "scissors" && compChoice === "rock") {
 		alert("The computer chose rock. You lose!");
 		lossCount++
 	}
